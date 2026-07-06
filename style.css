@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -172,7 +176,7 @@ section h2::after {
 .grade {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 0.3rem;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -205,6 +209,48 @@ section h2::after {
   line-height: 1.7;
 }
 
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.btn-projeto {
+  background: linear-gradient(135deg, #7e22ce, #2563eb);
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-projeto:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(126, 34, 206, 0.4);
+}
+
+.btn-codigo {
+  color: #60a5fa;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.btn-codigo:hover {
+  background: rgba(59, 130, 246, 0.2);
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -231,27 +277,16 @@ section h2::after {
   border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
+.tag.violet {
+  background: rgba(139, 92, 246, 0.15);
+  color: #946bf3;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
 .links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.links a {
-  display: inline-block;
-  color: #60a5fa;
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  border: 1px solid rgba(59, 130, 246, 0.3);
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
-
-.links a:hover {
-  background: rgba(59, 130, 246, 0.2);
-  color: #ffffff;
-  border-color: #2563eb;
 }
 
 #experiencia {
