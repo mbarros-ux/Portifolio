@@ -1,6 +1,6 @@
 # Portifolio Pessoal
 
-![Screenshot do Portifolio](portifolio.png)
+![Screenshot do Portifolio](portfolio.png)
 
 ## Demo ao Vivo
 [Ver portfólio funcionando](https://mbarros-ux.github.io/Portifolio/)
